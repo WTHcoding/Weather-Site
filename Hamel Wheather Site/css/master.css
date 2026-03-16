@@ -1,0 +1,76 @@
+
+body {
+    background-image: url('../images/bgLight.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+.darkMode{
+  background-image: url('../images/bgDark.jpg');
+}
+.jumbotron {
+  border-radius: 20px;
+  background-color: #fffeec;
+}
+
+h1 {font-size: 40;color:#381d2a;margin-left: 40px;}
+
+h2{font-size: 30;color:#381d2a; margin-left: 40px;}
+
+p {color: #381d2a; margin-left: 40px;}
+
+img{
+    margin-left: 70 px;
+}
+
+#footer{
+    margin-left: 0;
+}
+.header{
+    margin-left: 40px;
+}
+
+.keyword-magnet{
+  float: none
+}
+
+.reqStar{
+  color:#f8333c;
+}
+
+.HorizList li{
+    list-style: none;
+    float: left;
+    padding-right:50px;
+}
+
+.citySelected{
+  margin:auto;
+}
+
+
+.weatherBox{
+  margin-top: 10px;
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  /* border-radius: 8px; */
+  display: inline;
+  min-width: 200px;
+  background-color: transparent;
+  font-family: sans-serif;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.weatherBox, p{
+  text-align: center;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+}
+
+.weatherBox:hover{
+    padding: 0px;
+}
